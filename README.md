@@ -4,29 +4,38 @@
 
 국민대학교 AI빅데이터융합경영학과 데이터사이언스전공 · SQLD · ADsP
 
-- 사실은 DB와 규칙이, 문장은 LLM이 — LLM이 멈춰도 동작하는 RAG 서비스 설계
-- PM · AI · 프론트엔드를 오가며 팀 프로젝트를 끝까지 마무리
-
 ---
 
-### Projects
+### 대표 프로젝트
 
-| 프로젝트 | 설명 | 역할 |
-| --- | --- | --- |
-| [Youth-ON](https://github.com/HongDoonK/-AI-) | 청년정책 16,571건 RAG 검색 → 적격성 검증 → 신청 준비 안내 AI 에이전트 | 팀장 · AI 모델 |
-| [Traveler (mobility_rag)](https://github.com/ekgus040/traveler-front) | 이동 수단·동승자 상황 맞춤 여행 코스 추천 RAG (한이음 드림업) | PM · 프론트엔드 |
-| [사사삭](https://github.com/ekgus040/sasasak-ai) | 장소 분위기 기반 소셜 지도 · KOSSCCHTHON 특별상 | AI 전담 |
-| [FertiGuide AI](https://github.com/ekgus040/Fertiguide_AI) | 공공 통계 + LLM 상담 기반 난임·임신 준비 안내 | 단독 개발 |
-| [Rainforest AI](https://github.com/ekgus040/Rainforest_AI) | 산불 피해지 복원 우선순위 산정 · 정책 보고서 생성 | LLM 엔지니어 |
+**[Youth-ON](https://github.com/ekgus040/Youth-ON)** — 청년정책 내비게이션 AI 에이전트 · 팀장 · AI 모델
+- 청년정책 16,571건 FAISS RAG 검색 → 조건 추출 → 적격성 검증 → 신청 준비 리포트
+- 금액·기간·자격은 DB와 규칙 엔진, LLM은 조건 추출·문장만 담당해 LLM 없이도 전체 기능 동작
 
-### Research
+**[트래블러 (traveler-front)](https://github.com/ekgus040/traveler-front)** — 상황 맞춤 여행 코스 추천 RAG · PM · 프론트엔드 · 한이음 드림업
+- PM으로 GitHub 저장소·머지 관리, MVP 기준 스프린트 운영, 일정·문서 관리
+- 프론트엔드 27커밋 중 22커밋: SSE 채팅, 네이버 지도 코스 렌더링, OSRM 폴백
 
-- **TEAM RS-A** — 공개 EEG-언어 인코더 벤치마크 · RSA 표상 감사 (X:AI 7기 ADV), 감정 EEG RSA 분석 담당
-- **D&X:W Conference** — GLP-1 비만치료 개인화 Offline RL 가상 환자 환경
+**[사사삭 AI 서버 (sasasak-ai)](https://github.com/ekgus040/sasasak-ai)** — 장소 분위기 기반 소셜 지도 · AI 서버 전담 · 🏆 KOSSCCHTHON 특별상
+- 5인 팀에서 AI 서버 단독 담당 (30커밋 중 26커밋)
+- 분위기 분석·유해 검사·동점 처리 등 API 8개, 테스트·평가 코드, Dockerfile
+
+### 데이터 분석
+
+**HACCP 첫 연장 우선관리 분석** — 식품안전관리인증원 공공데이터 경진대회 1차 합격 · 2차 심사 결과 후 공개
+- 공공데이터 결합 + 생존분석(KM·Cox), 과거 3시점 사후 검증 (첫 연장 이탈 오즈비 1.53)
+- 같은 물량 기준 포착률 57.1%, 무작위 대비 +11.3%p · 2027~2028 우선관리 명단 3,171건
+
+### 그 외
+
+- [transitgap](https://github.com/ekgus040/transitgap) — 서울 대중교통 공백과 단거리 차량 이동 분석 (LightGBM·SHAP)
+- [FertiGuide_AI](https://github.com/ekgus040/Fertiguide_AI) — 공공 통계 + LLM 상담 난임·임신 준비 안내 (단독 개발)
+- [Rainforest_AI](https://github.com/ekgus040/Rainforest_AI) — 산불 피해지 복원 우선순위·정책 보고서 생성 (LLM 엔지니어)
+- [Chagok](https://github.com/ekgus040/Chagok) — 1:1 비교 기반 맛집 순위 앱 프로토타입
 
 ### Stack
 
-`Python` `SQL` `TypeScript` · `RAG` `FAISS` `Pinecone` `PyTorch` `LightGBM` `SHAP` · `FastAPI` `React` `Next.js` · `PostgreSQL` `Redis` `Docker` `AWS EC2`
+`Python` `SQL` `TypeScript` · `RAG` `FAISS` `Pinecone` `PyTorch` `LightGBM` `lifelines` · `FastAPI` `React` `Next.js` · `PostgreSQL` `Redis` `Docker`
 
 ### Contact
 
