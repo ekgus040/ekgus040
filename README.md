@@ -18,7 +18,7 @@
 
 **[사사삭 AI 서버 (sasasak-ai)](https://github.com/ekgus040/sasasak-ai)** — 장소 분위기 기반 소셜 지도 · AI 서버 전담 · 🏆 KOSSCCHTHON 특별상
 - 5인 팀에서 AI 서버 단독 담당 (30커밋 중 26커밋)
-- 분위기 분석·유해 검사·동점 처리 등 API 8개, 테스트·평가 코드, Dockerfile
+- 분위기 분석·안전 검사·취향 매칭 등 API 10여 종, 베이지안 취향 모델, 테스트·평가 코드, Dockerfile
 
 ### 데이터 분석
 
