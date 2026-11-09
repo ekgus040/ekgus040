@@ -26,12 +26,13 @@
 - 공공데이터 결합 + 생존분석(KM·Cox), 과거 3시점 사후 검증 (첫 연장 이탈 오즈비 1.53)
 - 같은 물량 기준 포착률 57.1%, 무작위 대비 +11.3%p · 2027~2028 우선관리 명단 3,171건
 
+**[transitgap](https://github.com/ekgus040/transitgap)** — 서울 대중교통 공백과 단거리 차량 이동 분석 · 숲과나눔·한겨레 교통 데이터 분석 공모전
+- 수도권 생활이동 원자료 DuckDB 적재·행정동 집계, 번호순 재실행 스크립트, 원자료 대조 검증
+- 1~5km 차량 이동 원인 LightGBM·SHAP 분석, 공백 지역 도출, 탄소 시나리오 제시
+
 ### 그 외
 
-- [transitgap](https://github.com/ekgus040/transitgap) — 서울 대중교통 공백과 단거리 차량 이동 분석 · 생활이동 원자료 DuckDB 적재·행정동 집계, 번호순 재실행 스크립트, 원자료 대조 검증 (LightGBM·SHAP)
 - [FertiGuide_AI](https://github.com/ekgus040/Fertiguide_AI) — 공공 통계 + LLM 상담 난임·임신 준비 안내 (단독 개발)
-- [Rainforest_AI](https://github.com/ekgus040/Rainforest_AI) — 산불 피해지 복원 우선순위·정책 보고서 생성 (LLM 엔지니어)
-- [Chagok](https://github.com/ekgus040/Chagok) — 1:1 비교 기반 맛집 순위 앱 프로토타입
 
 ### Stack
 
