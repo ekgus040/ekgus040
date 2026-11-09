@@ -28,7 +28,7 @@
 
 ### 그 외
 
-- [transitgap](https://github.com/ekgus040/transitgap) — 서울 대중교통 공백과 단거리 차량 이동 분석 (LightGBM·SHAP)
+- [transitgap](https://github.com/ekgus040/transitgap) — 서울 대중교통 공백과 단거리 차량 이동 분석 · 생활이동 원자료 DuckDB 적재·행정동 집계, 번호순 재실행 스크립트, 원자료 대조 검증 (LightGBM·SHAP)
 - [FertiGuide_AI](https://github.com/ekgus040/Fertiguide_AI) — 공공 통계 + LLM 상담 난임·임신 준비 안내 (단독 개발)
 - [Rainforest_AI](https://github.com/ekgus040/Rainforest_AI) — 산불 피해지 복원 우선순위·정책 보고서 생성 (LLM 엔지니어)
 - [Chagok](https://github.com/ekgus040/Chagok) — 1:1 비교 기반 맛집 순위 앱 프로토타입
